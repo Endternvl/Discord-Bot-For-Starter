@@ -17,7 +17,7 @@ module.exports = {
       let embed = new MessageEmbed()
         .setTitle(command.name[0].toUpperCase() + command.name.slice(1) + " Command")
         .setDescription(command.description || "Not Provided")
-        .addField("Command usage", command.usage ? "```js\n" + default_prefix + command.usage + "```" : "Not Provided")
+        .addField("Command usage", command.usage ? "```js\n" + prefix + command.usage + "```" : "Not Provided")
         .setColor("GREEN")
 
 
