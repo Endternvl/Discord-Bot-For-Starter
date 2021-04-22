@@ -1,0 +1,21 @@
+{
+  "name": "timestrial",
+  "version": "1.0.0",
+  "description": "An advanced discord bot for tutorials in tc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "timescord"
+  ],
+  "author": "endternvl",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.5.3",
+    "fs": "0.0.1-security",
+    "quick.db": "^7.1.3",
+    "weky": "^1.4.1"
+  }
+}
